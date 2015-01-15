@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/idMyKeyboard" android:layout_width="fill_parent"
+	android:layout_alignParentBottom="true" android:layout_below="@+id/xsubLayout"
+	android:orientation="vertical" android:background="@color/gray_dark"
+	android:visibility="visible" android:layout_height="258sp"
+	android:soundEffectsEnabled="true">
+	<TableLayout 
+		android:layout_width="fill_parent" android:layout_height="258sp"
+		android:orientation="vertical" android:layout_alignParentBottom="true"
+		android:clipChildren="true">
+		<TableLayout 
+			android:layout_width="wrap_content" android:layout_height="258sp"
+			android:padding="0sp">
+			
+		    
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:fitsSystemWindows="true"
+				android:orientation="horizontal">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="5sp" android:gravity="bottom"
+					android:orientation="horizontal">
+				</LinearLayout>
+			</TableRow>
+			
+		    
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:padding="0sp">
+				<LinearLayout android:baselineAligned="true"
+					android:layout_width="fill_parent" android:layout_height="55sp"
+					android:fitsSystemWindows="true">
+					<Button android:id="@+id/idKeyChar_q"
+					    android:layout_width="36sp"
+						android:layout_height="fill_parent" android:text="@string/char_q_lower"
+						android:textColor="@color/white" android:tag="@string/char_q_lower" 
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:padding="0sp" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_w"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:padding="0sp" 
+						android:textSize="20sp"
+						android:textColor="@color/white" 
+						android:tag="@string/char_w_lower"
+						android:text="@string/char_w_lower"
+						style="@style/btnStyleShakespeare"
+						android:layout_gravity="left" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_e"
+						android:layout_gravity="left" 
+						android:layout_width="36sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:padding="0sp" android:layout_height="fill_parent"
+						android:text="@string/char_e_lower" android:tag="@string/char_e_lower" 
+						android:textColor="@color/white" android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_r"
+						android:layout_width="36sp" android:layout_gravity="center_horizontal"
+						android:layout_height="fill_parent" android:text="@string/char_r_lower" 
+						android:tag="@string/char_r_lower"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:textColor="@color/white"
+						android:fitsSystemWindows="true" android:ellipsize="marquee" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_t"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:layout_gravity="center_horizontal" android:text="@string/char_t_lower"
+						android:tag="@string/char_t_lower" android:fitsSystemWindows="true"
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:ellipsize="marquee" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_y"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:tag="@string/char_y_lower" android:layout_gravity="center" 
+						android:text="@string/char_y_lower"
+						android:fitsSystemWindows="true" 
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:ellipsize="marquee" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_u"
+						android:layout_width="36sp" android:layout_gravity="center_horizontal"
+						android:layout_height="fill_parent" 
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:text="@string/char_u_lower" android:tag="@string/char_u_lower"
+						android:textColor="@color/white"
+						android:fitsSystemWindows="true" android:ellipsize="marquee" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_i"
+						android:layout_width="34sp" android:layout_height="fill_parent"
+						android:text="@string/char_i_lower" android:fitsSystemWindows="true" 
+						android:tag="@string/char_i_lower"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:textColor="@color/white"
+						android:layout_gravity="center_horizontal" android:ellipsize="marquee" />
+					<Button
+					    android:id="@+id/idKeyChar_o"
+					    android:layout_width="38sp"
+					    android:textSize="20sp"
+					    android:layout_height="fill_parent"
+					    android:ellipsize="marquee"
+					    android:fitsSystemWindows="true"
+					    android:soundEffectsEnabled="true"
+					    android:tag="@string/char_o_lower"
+					    android:text="@string/char_o_lower"
+					    style="@style/btnStyleShakespeare"
+					    android:textColor="@color/white" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_p"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:textColor="@color/white" 
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:text="@string/char_p_lower"
+						android:fitsSystemWindows="true" android:tag="@string/char_p_lower"
+						android:layout_gravity="center_horizontal" android:ellipsize="marquee" />
+				</LinearLayout>
+			</TableRow>
+			
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:fitsSystemWindows="true"
+				android:orientation="horizontal">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="10sp" android:gravity="bottom"
+					android:orientation="horizontal">
+				</LinearLayout>
+			</TableRow>
+			
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="0sp" >
+				<RelativeLayout android:layout_width="fill_parent"
+					android:layout_height="55sp">
+					<Button android:layout_alignWithParentIfMissing="true"
+						android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_a"
+						android:layout_width="36sp" android:layout_centerHorizontal="true"
+						android:tag="@string/char_a_lower" 
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:layout_marginLeft="17sp"
+						android:textColor="@color/white"
+						android:layout_height="fill_parent" android:text="@string/char_a_lower"
+						android:layout_alignParentLeft="true" android:fitsSystemWindows="true" />
+					<Button android:layout_centerHorizontal="true"
+						android:soundEffectsEnabled="true" android:layout_toRightOf="@id/idKeyChar_a"
+						android:id="@+id/idKeyChar_s" 
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:layout_width="36sp" 
+						android:tag="@string/char_s_lower"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:layout_height="fill_parent" android:text="@string/char_s_lower"
+						android:textColor="@color/white"
+						android:layout_alignWithParentIfMissing="true"
+						android:fitsSystemWindows="true" />
+					<Button android:layout_alignWithParentIfMissing="true"
+						android:layout_centerHorizontal="true"
+						android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_d"
+						android:layout_toRightOf="@id/idKeyChar_s" 
+						android:layout_width="36sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:textColor="@color/white"
+						android:tag="@string/char_d_lower"
+						android:layout_height="fill_parent" android:text="@string/char_d_lower"
+						android:fitsSystemWindows="true" />
+					<Button android:layout_alignWithParentIfMissing="true"
+						android:layout_centerHorizontal="true"
+						android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_f"
+						android:layout_toRightOf="@id/idKeyChar_d" 
+						android:layout_width="36sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/char_f_lower" 
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:layout_height="fill_parent" android:text="@string/char_f_lower"
+						android:textColor="@color/white"
+						android:fitsSystemWindows="true" />
+					<Button android:layout_alignWithParentIfMissing="true"
+						android:layout_centerHorizontal="true"
+						android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_g"
+						android:layout_toRightOf="@id/idKeyChar_f" 
+						android:layout_width="36sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:textColor="@color/white"
+						android:layout_height="fill_parent" 
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:tag="@string/char_g_lower" android:text="@string/char_g_lower" 
+						android:fitsSystemWindows="true" />
+					<Button android:layout_alignWithParentIfMissing="true"
+						android:layout_centerHorizontal="true"
+						android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_h"
+						android:layout_toRightOf="@id/idKeyChar_g" 
+						android:layout_width="36sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/char_h_lower" android:layout_height="fill_parent"
+						android:textColor="@color/white"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:text="@string/char_h_lower" android:fitsSystemWindows="true" />
+					<Button android:layout_alignWithParentIfMissing="true"
+						android:layout_centerHorizontal="true"
+						android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_j"
+						android:layout_toRightOf="@id/idKeyChar_h" 
+						android:layout_width="36sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:textColor="@color/white"
+						android:layout_height="fill_parent" 
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:tag="@string/char_j_lower" android:text="@string/char_j_lower" 
+						android:fitsSystemWindows="true" />
+					<Button android:layout_alignWithParentIfMissing="true"
+						android:layout_centerHorizontal="true"
+						android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_k"
+						android:textColor="@color/white"
+						android:layout_toRightOf="@id/idKeyChar_j" 
+						android:layout_width="36sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:layout_height="fill_parent" 
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:tag="@string/char_k_lower" android:text="@string/char_k_lower" 
+						android:fitsSystemWindows="true" />
+					<Button android:layout_alignWithParentIfMissing="true"
+						android:layout_centerHorizontal="true"
+						android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_l"
+						android:textColor="@color/white"
+						android:layout_toRightOf="@id/idKeyChar_k" 
+						android:layout_width="36sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:layout_height="fill_parent" 
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:tag="@string/char_l_lower" android:text="@string/char_l_lower" 
+						android:fitsSystemWindows="true" />
+				</RelativeLayout>
+			</TableRow>
+			
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:fitsSystemWindows="true"
+				android:orientation="horizontal">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="10sp" android:gravity="bottom"
+					android:orientation="horizontal">
+				</LinearLayout>
+			</TableRow>
+			
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_gravity="fill_vertical"
+				android:fitsSystemWindows="true" android:orientation="horizontal">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="55sp" android:gravity="bottom"
+					android:orientation="horizontal">
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyShift"
+						android:layout_width="50sp" android:layout_height="fill_parent"
+						android:textColor="@color/green_medium"
+						android:layout_gravity="right" android:fitsSystemWindows="true"
+						android:paddingLeft="35sp"
+						android:textSize="28sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/char_shifttaglower" 
+						android:text="@string/key_shift"
+						android:textStyle="bold" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_z"
+						android:layout_width="36sp" 
+						android:layout_marginLeft="2sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:layout_height="fill_parent" 
+						android:text="@string/char_z_lower" android:tag="@string/char_z_lower"
+						android:textColor="@color/white"
+						android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_x"
+						android:layout_width="36sp" 
+						android:textSize="20sp"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:tag="@string/char_x_lower" android:layout_height="fill_parent" 
+						android:text="@string/char_x_lower"
+						android:textColor="@color/white"
+						style="@style/btnStyleShakespeare"
+						android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_c"
+						android:layout_width="36sp" 
+						android:textSize="20sp"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:tag="@string/char_c_lower" android:layout_height="fill_parent" 
+						android:text="@string/char_c_lower"
+						android:textColor="@color/white"
+						style="@style/btnStyleShakespeare"
+						android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_v"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/char_v_lower"
+						android:text="@string/char_v_lower" android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_b"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:tag="@string/char_b_lower" android:text="@string/char_b_lower" 
+						android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_n"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/char_n_lower"
+						android:text="@string/char_n_lower" android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_m"
+						android:layout_width="38sp" android:layout_height="fill_parent"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/char_m_lower"
+						android:text="@string/char_m_lower" android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyBack"
+						android:layout_width="50sp" android:layout_height="fill_parent"
+						android:layout_marginLeft="0sp"
+						android:textSize="30sp"
+						style="@style/btnStyleShakespeare"
+						android:textColor="@color/white"
+						android:tag="@string/char_backtag"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:fitsSystemWindows="true" 
+						android:text="@string/key_back"
+						android:textStyle="bold" />
+
+
+				</LinearLayout>
+			</TableRow>
+			
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:fitsSystemWindows="true"
+				android:orientation="horizontal">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="10sp" android:gravity="bottom"
+					android:orientation="horizontal">
+				</LinearLayout>
+			</TableRow>
+			
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:fitsSystemWindows="true"
+				android:orientation="horizontal">
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="55sp" android:gravity="bottom"
+					android:orientation="horizontal">
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChange"
+						android:layout_width="70sp" android:layout_height="fill_parent"
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/char_sym"
+						android:text="@string/char_sym" android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeySpace"
+						android:textColor="@color/white"
+						android:layout_width="117sp" android:layout_height="fill_parent"
+						android:layout_marginLeft="5sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/char_spacetag" android:text="@string/char_space" 
+						android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_sym1"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:layout_marginLeft="5sp"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:textColor="@color/white"
+						android:layout_gravity="right" android:fitsSystemWindows="true"
+						android:tag="@string/sym_comma" android:text="@string/sym_comma" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_sym2"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:tag="@string/sym_dot" android:text="@string/sym_dot" 
+						android:fitsSystemWindows="true" />
+					<Button android:soundEffectsEnabled="true" android:id="@+id/idKeyChar_sym3"
+						android:layout_width="36sp" android:layout_height="fill_parent"
+						android:layout_gravity="center_horizontal|center_vertical|center"
+						android:textColor="@color/white"
+						android:textSize="20sp"
+						style="@style/btnStyleShakespeare"
+						android:tag="@string/sym_apostrophe"
+						android:text="@string/sym_apostrophe" android:fitsSystemWindows="true" />
+					<Button
+					    android:id="@+id/idKeyEnter"
+					    android:layout_width="48sp"
+					    android:layout_height="55sp"
+					    android:textSize="28sp"
+					    style="@style/btnStyleShakespeare"
+					    android:layout_marginLeft="5sp"
+					    android:text="@string/key_enter"
+					    android:fitsSystemWindows="true"
+					    android:soundEffectsEnabled="true"
+					    android:tag="char_entertag"
+					    android:textColor="@color/white"
+					    android:textStyle="bold" />
+
+				</LinearLayout>
+			</TableRow>
+		</TableLayout>
+	</TableLayout>
+</RelativeLayout>

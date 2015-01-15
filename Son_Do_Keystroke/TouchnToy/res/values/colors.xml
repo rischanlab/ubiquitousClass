@@ -1,0 +1,23 @@
+<resources>
+    
+    <color name="gray_dark">#333333</color>
+    <color name="gray_medium">#666666</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red_dark">#990000</color>
+    <color name="green_dark">#009900</color>
+    <color name="green_medium">#00FF00</color>
+    <color name="blue_dark">#000099</color>
+    <color name="yellow_medium">#FFFF00</color>
+	<color name="magenta_dark">#990099</color>
+    <color name="pink_dark">#991F5C</color>
+    <color name="orange_dark">#993D00</color>
+    <color name="orange_medium">#FF6600</color>
+    <color name="orange_light">#FFA366</color>
+    <color name="mix1">#B2CCCC</color>
+    <color name="mix2">#D1E0E0</color>
+    <color name="GradientBeginNormal">#508A94</color>
+    <color name="GradientEndNormal">#308D9E</color>
+    <color name="GradientBeginClick">#993D00</color>
+    <color name="GradientEndClick">#FFA366</color>
+    
+</resources>

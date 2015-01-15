@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idMainLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/mix1"
+	android:focusable="true"
+	android:orientation="vertical">
+	
+	<RelativeLayout
+	    android:id="@+id/idTouchLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/mix1"
+	    android:gravity="top"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context="iat.android.touchntoy.MainActivity$PlaceholderFragment" >
+		
+	    
+	    <Button
+	        android:id="@+id/buttonstart"
+	        android:layout_width="110sp"
+	        android:layout_height="50sp"
+	        android:textColor="@color/green_dark"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:textStyle="bold"
+	        android:text="@string/btnstring_start"
+	        android:tag="@string/btnstring_start"
+	        android:onClick="onButtonCheck" />
+	    
+	    <Button
+	        android:id="@+id/buttonnext"
+	        android:layout_width="70sp"
+	        android:layout_height="50sp"
+	        android:textColor="@color/red_dark"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:textStyle="bold"
+	        android:text="@string/btnstring_next"
+	        android:tag="@string/btnstring_next"
+	        android:onClick="onButtonNext" />
+		
+	    <Button
+	        android:id="@+id/buttonprev"
+	        android:layout_width="70sp"
+	        android:layout_height="50sp"
+	        android:textColor="@color/red_dark"
+	        android:layout_alignBaseline="@+id/buttonnext"
+	        android:layout_alignBottom="@+id/buttonnext"
+	        android:layout_toLeftOf="@+id/buttonnext"
+	        android:layout_marginRight="5sp"
+	        android:textStyle="bold"
+	        android:text="@string/btnstring_prev"
+	        android:tag="@string/btnstring_prev"
+	        android:onClick="onButtonPrev" />
+	    
+	    <Button
+	        android:id="@+id/buttoncountup"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="50sp"
+	        android:layout_height="30sp"
+	        android:textColor="@color/red_dark"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/buttonnext"
+	         android:textStyle="bold"
+	        android:text="@string/sym_uptriangle" 
+	        android:onClick="onButtonUp" />
+	    
+	    <Button
+	        android:id="@+id/buttoncountdown"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="50sp"
+	        android:layout_height="30sp"
+	        android:textColor="@color/red_dark"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/buttoncountup"
+	         android:textStyle="bold"
+	        android:text="@string/sym_downtriangle"
+	        android:onClick="onButtonDown"  />
+		
+	    <TextView
+	        android:id="@+id/textView_count"
+	        android:layout_width="100sp"
+	        android:layout_height="20sp"
+	        android:layout_below="@+id/buttonstart"
+	        android:layout_marginTop="10sp"
+	        android:layout_marginLeft="70sp"
+	        android:textStyle="bold"
+	        android:textColor="@color/magenta_dark"
+	        android:text="@string/statictext_countinit"
+	        android:tag="@string/statictext_count" />
+	    
+	    <TextView
+	        android:id="@+id/textView_counttmp"
+	        android:layout_width="100sp"
+	        android:layout_height="20sp"
+	        android:layout_alignBaseline="@+id/textView_count"
+	        android:layout_alignBottom="@+id/textView_count"
+	        android:layout_toRightOf="@+id/textView_count"
+	        android:layout_marginLeft="10sp"
+	        android:tag="@string/statictext_counttmp"
+	        android:text="@string/statictext_counttmpinit"
+	        android:textColor="@color/magenta_dark"
+	        android:textStyle="bold" />
+	    
+	    <TextView
+	        android:id="@+id/textView_guide"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20sp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/textView_count"
+	        android:layout_marginTop="10sp"
+	        android:tag="@string/statictext_guide"
+	        android:text="@string/statictext_guide"
+	        android:textColor="@color/pink_dark" />
+		
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="match_parent"
+	        android:layout_height="150sp"
+	        android:layout_below="@+id/textView_guide"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginTop="10sp"
+	        android:background="@color/mix2"
+	        android:ems="10"
+	        android:textSize="17sp"
+	        android:gravity="top|left"
+	        android:inputType="textMultiLine"
+	        android:text=""
+	        android:tag="@string/editTexttag"
+	        android:textColor="@color/magenta_dark" >
+	        <requestFocus />
+	    </EditText>
+	    <!--  android:focusable="false" -->
+	
+	</RelativeLayout>
+	
+	<RelativeLayout
+	    android:id="@+id/idKeyLayout"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:visibility="gone">
+		<include android:id="@+id/idMyKeyboard" layout="@layout/keyboard_main"></include>
+	</RelativeLayout>
+	
+</RelativeLayout>
