@@ -48,21 +48,21 @@ Please read this guidance carefully and we need your cooperation.
 The deadline for your file is Friday, November 21, 2014. 
 
 
-Arm Flex (10X)	Put your phone on the table, press start recording and hold your phone and then pick up near to your ear like when you want to answer incoming call from someone then stop recording. Doing this step for 10 times each person. 
+- Arm Flex (10X)	Put your phone on the table, press start recording and hold your phone and then pick up near to your ear like when you want to answer incoming call from someone then stop recording. Doing this step for 10 times each person. 
 
-Ear Shape (10)	Open your camera application using your front camera and then take a picture of your ear shape. Total pics : 10 pictures
+- Ear Shape (10)	Open your camera application using your front camera and then take a picture of your ear shape. Total pics : 10 pictures
 
-Walking (10 A, 10 B)	“10 A” means standing on “A” point and then walking 10 steps to “B” point. Do it for 10 times.
+- Walking (10 A, 10 B)	“10 A” means standing on “A” point and then walking 10 steps to “B” point. Do it for 10 times.
 “10 B” means standing on “B” point and then walking return back to “A” point. Do it for 10 times
 
-Running (10 A, 10 B)	Same with walking but you are running not normal walking. 
+- Running (10 A, 10 B)	Same with walking but you are running not normal walking. 
 
-Standing (2 minutes)	Just stand for 2 minutes and record your data. 
+- Standing (2 minutes)	Just stand for 2 minutes and record your data. 
 
-Up stairs (8 steps, 10 X)	In our building, we have stairs (8 steps). In this case, I tried to using that stairs. Normal walking up stairs, record it for 10 times. 
+- Up stairs (8 steps, 10 X)	In our building, we have stairs (8 steps). In this case, I tried to using that stairs. Normal walking up stairs, record it for 10 times. 
 
-Down stairs (8 steps, 10 X)	Normal walking down stairs, record it for 10 times. 
+- Down stairs (8 steps, 10 X)	Normal walking down stairs, record it for 10 times. 
 
-Fall (10X)	Using mattress and record your forward fall for 10 times. (only forward fall)
+- Fall (10X)	Using mattress and record your forward fall for 10 times. (only forward fall)
 
 Using ours dataset, apply the approaches in paper that already you read and present your result. I will send the presentation schedule as soon as possible.
