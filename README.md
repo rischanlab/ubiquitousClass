@@ -1,6 +1,12 @@
 # ubiquitousClass
 Repo for Ubiquitous Class -- Advisor: Prof. Choi
 
+In this class, my professor want me to manage his class, I asked all of students to collect their personal data such as their gait when they walk, stand, running, walking upstair and downstairs, etc. 
+
+The aim of this class is to implement previouse methods (in paper) who done by previous our lab members, such as using gait for implisit authentication, activity recognition based on gait, and etc. 
+
+Please see details information below or you can download `Data_Collection_methods.pdf` in this project. 
+
 Final Assignment.
 
 November 17, 2014
