@@ -66,3 +66,7 @@ The deadline for your file is Friday, November 21, 2014.
 - Fall (10X)	Using mattress and record your forward fall for 10 times. (only forward fall)
 
 Using ours dataset, apply the approaches in paper that already you read and present your result. I will send the presentation schedule as soon as possible.
+
+This repo only contain personal dataset from students. 
+
+IF you want to see the result of analysis, you can see my final report project from this class. You can follow this link https://github.com/rischanlab/ubiClass_FinalReport
